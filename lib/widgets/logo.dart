@@ -9,17 +9,17 @@ class Logo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        width: 170,
+        width: 130,
         margin: EdgeInsets.only(top: 50),
         child: Column(
           children: <Widget>[
             Image(
               image: AssetImage('assets/tag-logo.png'),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 10),
             Text(
               titulo,
-              style: TextStyle(fontSize: 30),
+              style: TextStyle(fontSize: 25),
             ),
           ],
         ),
