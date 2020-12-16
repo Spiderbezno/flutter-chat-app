@@ -9,7 +9,7 @@ class Logo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        width: 130,
+        width: 125,
         margin: EdgeInsets.only(top: 50),
         child: Column(
           children: <Widget>[
@@ -19,7 +19,7 @@ class Logo extends StatelessWidget {
             SizedBox(height: 10),
             Text(
               titulo,
-              style: TextStyle(fontSize: 25),
+              style: TextStyle(fontSize: 22),
             ),
           ],
         ),
